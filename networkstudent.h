@@ -13,7 +13,4 @@ public:
     void print();
 
     ~NetworkStudent();
-
-
-
 };
