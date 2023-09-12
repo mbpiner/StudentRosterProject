@@ -12,24 +12,16 @@ class Roster
 private: 
     int lastIdx; //index of last student - how many entries in roster
     int maxRosterSize; // maximum size of roster
-
-
-
-
-
-		Student** students;
-
+    Student** students;
 
     public:
-
         
         Roster();
         Roster(int capacity);
 
+	Student* getStudentAt(int index);
 
-        Student* getStudentAt(int index);
-
-				void parseThenAdd(string datarow);
+	void parseThenAdd(string datarow);
 
         void printAll();
 
@@ -42,15 +34,4 @@ private:
         void printDays(string studentID);
 
         void printBadEmails();
-
-
-
-
-
-
-
-
-
-
-
 };
