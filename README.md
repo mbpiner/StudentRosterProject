@@ -1,3 +1,7 @@
+Scripting and Programming Applications Project
+
+-----
+
 This is a class project for the Scripting and Programming - Applications in WGU's CS program.
 
 The goal of this project is to create a class roster using C++.
