@@ -8,32 +8,24 @@ using std::setw;
 
 Student::Student()
 {
-
     this->studentID = "";
     this->firstName = "";
     this->lastName = "";
     this->emailAddress = "";
     this->age = 0;
     for (int i = 0; i<3; i++){this->days[i] = 0;};
-
-
-
 }
 
 
 
 Student::Student(string id, string fName, string lName, string email, int age, int days[])
 {
-
     this->studentID = id;
     this->firstName = fName;
     this->lastName = lName;
     this->emailAddress = email;
     this->age = age;
     for (int i = 0; i<3; i++){this->days[i] = days[i];};
-
-
-
 }
 
 //Getters
@@ -64,7 +56,6 @@ Student::Student(string id, string fName, string lName, string email, int age, i
 
 void Student::print()
 {
-
 cout << left << setw(5) << studentID;
 cout << left << setw(15) << firstName;
 cout << left << setw(10) << lastName;
@@ -73,12 +64,9 @@ cout << left << setw(20) << age;
 cout << left << setw(10) << days[0];
 cout << left << setw(10) << days[1];
 cout << left << setw(10) << days[2];
-
-
 }
 
 
 
 Student::~Student(){
-
 }
