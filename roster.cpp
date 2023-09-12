@@ -38,20 +38,12 @@ int main() {
     rost->parseThenAdd(studentData[i]);
   }
 
-  // rost->printByDegree(SOFTWARE);
   rost->printAll();
   rost->remove("A5");
   rost->printAll();
   rost->printBadEmails();
   rost->printDays("A2");
   rost->printByDegree(SOFTWARE);
-  // rost->remove("A4");
-  // rost->printAll();
-  // rost->printByDegree(SOFTWARE);
-  // rost->remove("A5");
-  // rost->printAll();
-  // rost.remove("A3");
-  // rost.printAll();
 
 } // end main
 
