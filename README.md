@@ -23,4 +23,4 @@ Accessor (i.e. getter) for each instance variable, Mutator (i.e. setter) for eac
 Virtual print() function to print specific student data, Destructor, and Virtual getDegreeProgram() function
 
 The roster loops through the students, prints selected information as requested, and allows removal of specified student records.
-It also performs a limited type of input validation (nowadays I would use a basic regex or something).
+It also performs a very limited input validation through printing invalid emails (nowadays I would use a basic regex or something).
