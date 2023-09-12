@@ -9,12 +9,12 @@ first name
 last name
 email address
 age
-array of number of days to complete each course\
+array of number of days to complete each course
 degree types
 and functions:
 
-an accessor (i.e., getter) for each instance variable from part D1
-a mutator (i.e., setter) for each instance variable from part D1
+an accessor (i.e., getter) for each instance variable
+a mutator (i.e., setter) for each instance variable
 constructor using all of the input parameters provided in the table
 virtual print() to print specific student data
 destructor
